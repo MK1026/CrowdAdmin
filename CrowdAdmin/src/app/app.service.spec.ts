@@ -3,22 +3,19 @@ import { TestBed, inject } from '@angular/core/testing';
 import { AppService } from './app.service';
 
 describe('AppService', () => {
-  
-  let appService: AppService;
-  
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      providers: [AppService]
+        providers: [AppService]
     });
   });
 
   it('should be created', inject([AppService], (service: AppService) => {
     expect(service).toBeTruthy();
   }));
-  
+
   it('should return object', inject([AppService], (service: AppService) => {
-    let labels = service.getMainLabels();
+    const labels = service.getMainLabels();
     expect(Object.keys(labels).length).toBe(10);
     expect(labels.title).toEqual('Crowdfunds investments');
     expect(labels.login).toEqual('Inloggen');
@@ -31,5 +28,5 @@ describe('AppService', () => {
     expect(labels.welcome).toEqual('Welkom bij Crowdfunds Administratie');
     expect(labels.text).toEqual('Inleidende text voor de crowdfund admin.');
   }));
-  
+
 });
