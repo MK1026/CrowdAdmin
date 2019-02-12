@@ -11,7 +11,6 @@ import { Title } from '@angular/platform-browser';
 
 export class AppComponent {
   labels: any;
-  login: string;
   constructor(private appService: AppService, private titleService: Title) {
     this.labels = this.appService.getMainLabels();
 
