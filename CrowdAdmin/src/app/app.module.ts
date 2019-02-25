@@ -1,24 +1,28 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-
+import { ReactiveFormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
+import { RegisterComponent } from './register/register.component';
 
 export const appRoutes: Routes = [
     {path: 'home', component: HomeComponent },
+    {path: 'register', component: RegisterComponent},
     {path: '', redirectTo: '/home', pathMatch: 'full'}
 ];
 
 @NgModule({
   imports: [
     BrowserModule,
-    RouterModule.forRoot(appRoutes)
+    RouterModule.forRoot(appRoutes),
+    ReactiveFormsModule
   ],
   declarations: [
     AppComponent,
     HomeComponent,
+    RegisterComponent,
   ],
   providers: [],
   bootstrap: [AppComponent]

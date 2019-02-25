@@ -9,7 +9,8 @@ const mainLabels = {title: 'Crowdfunds investments',
       platform: 'Platform',
       home: 'Home',
       welcome: 'Welkom bij Crowdfunds Administratie',
-      text: 'Inleidende text voor de crowdfund admin.'
+      text: 'Inleidende text voor de crowdfund admin.',
+      registerFormTitle: 'Registreren bij CrowdAdmin'
 };
 
 @Injectable()
