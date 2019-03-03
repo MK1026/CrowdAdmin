@@ -14,15 +14,15 @@ export const appRoutes: Routes = [
 ];
 
 @NgModule({
-  imports: [
-    BrowserModule,
-    RouterModule.forRoot(appRoutes),
-    ReactiveFormsModule
-  ],
   declarations: [
     AppComponent,
     HomeComponent,
     RegisterComponent,
+  ],
+  imports: [
+    BrowserModule,
+    RouterModule.forRoot(appRoutes),
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

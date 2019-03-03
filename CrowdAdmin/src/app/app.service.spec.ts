@@ -16,7 +16,7 @@ describe('AppService', () => {
 
   it('should return object', inject([AppService], (service: AppService) => {
     const labels = service.getMainLabels();
-    expect(Object.keys(labels).length).toBe(10);
+    expect(Object.keys(labels).length).toBe(11);
     expect(labels.title).toEqual('Crowdfunds investments');
     expect(labels.login).toEqual('Inloggen');
     expect(labels.register).toEqual('Registreren');
@@ -27,6 +27,7 @@ describe('AppService', () => {
     expect(labels.home).toEqual('Home');
     expect(labels.welcome).toEqual('Welkom bij Crowdfunds Administratie');
     expect(labels.text).toEqual('Inleidende text voor de crowdfund admin.');
+    expect(labels.registerFormTitle).toEqual('Registreren bij CrowdAdmin');
   }));
 
 });

@@ -4,10 +4,12 @@ import { AppComponent } from './app.component';
 import { RouterTestingModule } from '@angular/router/testing';
 import { Router } from '@angular/router';
 import { Location } from '@angular/common';
+import { ReactiveFormsModule } from '@angular/forms';
 
 import { HomeComponent } from './home/home.component';
 import { AppService } from './app.service';
 import { appRoutes } from './app.module';
+import { RegisterComponent } from './register/register.component';
 
 describe('AppComponent', () => {
     let location: Location;
@@ -17,8 +19,8 @@ describe('AppComponent', () => {
   beforeEach(() => {
 
     TestBed.configureTestingModule({
-      imports: [RouterTestingModule.withRoutes(appRoutes)],
-      declarations: [AppComponent, HomeComponent],
+      imports: [RouterTestingModule.withRoutes(appRoutes), ReactiveFormsModule],
+      declarations: [AppComponent, HomeComponent, RegisterComponent],
       providers: [{provide: AppService}],
     }).compileComponents();
 
