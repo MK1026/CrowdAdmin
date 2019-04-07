@@ -1,0 +1,540 @@
+// Use IntelliSense to learn about possible attributes.
+// Hover to view descriptions of existing attributes.
+// For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+{
+    "version": "2.0.0",
+    "configurations": [
+        {
+            "name": "Launch Chrome CrowdAdmin on Angular CLI Server",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:4200/#",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Chrome CrowdAdmin on Angular CLI Server (1)",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:4200/#",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Chrome CrowdAdmin on Angular CLI Server (2)",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:4200/#",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Chrome CrowdAdmin on Angular CLI Server (3)",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:4200/#",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Chrome CrowdAdmin on Angular CLI Server (4)",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:4200/#",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Chrome CrowdAdmin on Angular CLI Server (5)",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:4200/#",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Chrome CrowdAdmin on Angular CLI Server (6)",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:4200/#",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Chrome CrowdAdmin on Angular CLI Server (7)",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:4200/#",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Chrome CrowdAdmin on Angular CLI Server (8)",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:4200/#",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Chrome CrowdAdmin on Angular CLI Server (9)",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:4200/#",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Chrome CrowdAdmin on Angular CLI Server (10)",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:4200/#",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Chrome CrowdAdmin on Angular CLI Server (11)",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:4200/#",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Chrome CrowdAdmin on Angular CLI Server (12)",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:4200/#",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Chrome CrowdAdmin on Angular CLI Server (13)",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:4200/#",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Chrome CrowdAdmin on Angular CLI Server (14)",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:4200/#",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Chrome CrowdAdmin on Angular CLI Server (15)",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:4200/#",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Chrome CrowdAdmin on Angular CLI Server (16)",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:4200/#",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Chrome CrowdAdmin on Angular CLI Server (17)",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:4200/#",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Chrome CrowdAdmin on Angular CLI Server (18)",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:4200/#",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Chrome CrowdAdmin on Angular CLI Server (19)",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:4200/#",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Chrome CrowdAdmin on Angular CLI Server (20)",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:4200/#",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Chrome CrowdAdmin on Angular CLI Server (21)",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:4200/#",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Chrome CrowdAdmin on Angular CLI Server (22)",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:4200/#",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Chrome CrowdAdmin on Angular CLI Server (23)",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:4200/#",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Chrome CrowdAdmin on Angular CLI Server (24)",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:4200/#",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Chrome CrowdAdmin on Angular CLI Server (25)",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:4200/#",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Chrome CrowdAdmin on Angular CLI Server (26)",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:4200/#",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Chrome CrowdAdmin on Angular CLI Server (27)",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:4200/#",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Chrome CrowdAdmin on Angular CLI Server (28)",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:4200/#",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Chrome CrowdAdmin on Angular CLI Server (29)",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:4200/#",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Chrome CrowdAdmin on Angular CLI Server (30)",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:4200/#",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Chrome CrowdAdmin on Angular CLI Server (31)",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:4200/#",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Chrome CrowdAdmin on Angular CLI Server (32)",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:4200/#",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Chrome CrowdAdmin on Angular CLI Server (33)",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:4200/#",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Chrome CrowdAdmin on Angular CLI Server (34)",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:4200/#",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Chrome CrowdAdmin on Angular CLI Server (35)",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:4200/#",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Chrome CrowdAdmin on Angular CLI Server (36)",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:4200/#",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Chrome CrowdAdmin on Angular CLI Server (37)",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:4200/#",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Chrome CrowdAdmin on Angular CLI Server (38)",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:4200/#",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Chrome CrowdAdmin on Angular CLI Server (39)",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:4200/#",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Chrome CrowdAdmin on Angular CLI Server (40)",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:4200/#",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Chrome CrowdAdmin on Angular CLI Server (41)",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:4200/#",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Chrome CrowdAdmin on Angular CLI Server (42)",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:4200/#",
+            "webRoot": "${workspaceFolder}"
+        }
+    ]
+}{
+    "name": "Launch Chrome CrowdAdmin on Angular CLI Server (36)",
+    "type": "chrome",
+    "request": "launch",
+    "url": "http://localhost:4200/#",
+    "webRoot": "${workspaceFolder}"
+}
+]
+}            "type": "chrome",
+"request": "launch",
+"url": "http://localhost:4200/#",
+"webRoot": "${workspaceFolder}"
+},
+{
+"name": "Launch Chrome CrowdAdmin on Angular CLI Server (5)",
+"type": "chrome",
+"request": "launch",
+"url": "http://localhost:4200/#",
+"webRoot": "${workspaceFolder}"
+},
+{
+"name": "Launch Chrome CrowdAdmin on Angular CLI Server (6)",
+"type": "chrome",
+"request": "launch",
+"url": "http://localhost:4200/#",
+"webRoot": "${workspaceFolder}"
+},
+{
+"name": "Launch Chrome CrowdAdmin on Angular CLI Server (7)",
+"type": "chrome",
+"request": "launch",
+"url": "http://localhost:4200/#",
+"webRoot": "${workspaceFolder}"
+},
+{
+"name": "Launch Chrome CrowdAdmin on Angular CLI Server (8)",
+"type": "chrome",
+"request": "launch",
+"url": "http://localhost:4200/#",
+"webRoot": "${workspaceFolder}"
+},
+{
+"name": "Launch Chrome CrowdAdmin on Angular CLI Server (9)",
+"type": "chrome",
+"request": "launch",
+"url": "http://localhost:4200/#",
+"webRoot": "${workspaceFolder}"
+},
+{
+"name": "Launch Chrome CrowdAdmin on Angular CLI Server (10)",
+"type": "chrome",
+"request": "launch",
+"url": "http://localhost:4200/#",
+"webRoot": "${workspaceFolder}"
+},
+{
+"name": "Launch Chrome CrowdAdmin on Angular CLI Server (11)",
+"type": "chrome",
+"request": "launch",
+"url": "http://localhost:4200/#",
+"webRoot": "${workspaceFolder}"
+},
+{
+"name": "Launch Chrome CrowdAdmin on Angular CLI Server (12)",
+"type": "chrome",
+"request": "launch",
+"url": "http://localhost:4200/#",
+"webRoot": "${workspaceFolder}"
+},
+{
+"name": "Launch Chrome CrowdAdmin on Angular CLI Server (13)",
+"type": "chrome",
+"request": "launch",
+"url": "http://localhost:4200/#",
+"webRoot": "${workspaceFolder}"
+},
+{
+"name": "Launch Chrome CrowdAdmin on Angular CLI Server (14)",
+"type": "chrome",
+"request": "launch",
+"url": "http://localhost:4200/#",
+"webRoot": "${workspaceFolder}"
+},
+{
+"name": "Launch Chrome CrowdAdmin on Angular CLI Server (15)",
+"type": "chrome",
+"request": "launch",
+"url": "http://localhost:4200/#",
+"webRoot": "${workspaceFolder}"
+},
+{
+"name": "Launch Chrome CrowdAdmin on Angular CLI Server (16)",
+"type": "chrome",
+"request": "launch",
+"url": "http://localhost:4200/#",
+"webRoot": "${workspaceFolder}"
+},
+{
+"name": "Launch Chrome CrowdAdmin on Angular CLI Server (17)",
+"type": "chrome",
+"request": "launch",
+"url": "http://localhost:4200/#",
+"webRoot": "${workspaceFolder}"
+},
+{
+"name": "Launch Chrome CrowdAdmin on Angular CLI Server (18)",
+"type": "chrome",
+"request": "launch",
+"url": "http://localhost:4200/#",
+"webRoot": "${workspaceFolder}"
+},
+{
+"name": "Launch Chrome CrowdAdmin on Angular CLI Server (19)",
+"type": "chrome",
+"request": "launch",
+"url": "http://localhost:4200/#",
+"webRoot": "${workspaceFolder}"
+},
+{
+"name": "Launch Chrome CrowdAdmin on Angular CLI Server (20)",
+"type": "chrome",
+"request": "launch",
+"url": "http://localhost:4200/#",
+"webRoot": "${workspaceFolder}"
+},
+{
+"name": "Launch Chrome CrowdAdmin on Angular CLI Server (21)",
+"type": "chrome",
+"request": "launch",
+"url": "http://localhost:4200/#",
+"webRoot": "${workspaceFolder}"
+},
+{
+"name": "Launch Chrome CrowdAdmin on Angular CLI Server (22)",
+"type": "chrome",
+"request": "launch",
+"url": "http://localhost:4200/#",
+"webRoot": "${workspaceFolder}"
+},
+{
+"name": "Launch Chrome CrowdAdmin on Angular CLI Server (23)",
+"type": "chrome",
+"request": "launch",
+"url": "http://localhost:4200/#",
+"webRoot": "${workspaceFolder}"
+},
+{
+"name": "Launch Chrome CrowdAdmin on Angular CLI Server (24)",
+"type": "chrome",
+"request": "launch",
+"url": "http://localhost:4200/#",
+"webRoot": "${workspaceFolder}"
+},
+{
+"name": "Launch Chrome CrowdAdmin on Angular CLI Server (25)",
+"type": "chrome",
+"request": "launch",
+"url": "http://localhost:4200/#",
+"webRoot": "${workspaceFolder}"
+},
+{
+"name": "Launch Chrome CrowdAdmin on Angular CLI Server (26)",
+"type": "chrome",
+"request": "launch",
+"url": "http://localhost:4200/#",
+"webRoot": "${workspaceFolder}"
+},
+{
+"name": "Launch Chrome CrowdAdmin on Angular CLI Server (27)",
+"type": "chrome",
+"request": "launch",
+"url": "http://localhost:4200/#",
+"webRoot": "${workspaceFolder}"
+},
+{
+"name": "Launch Chrome CrowdAdmin on Angular CLI Server (28)",
+"type": "chrome",
+"request": "launch",
+"url": "http://localhost:4200/#",
+"webRoot": "${workspaceFolder}"
+},
+{
+"name": "Launch Chrome CrowdAdmin on Angular CLI Server (29)",
+"type": "chrome",
+"request": "launch",
+"url": "http://localhost:4200/#",
+"webRoot": "${workspaceFolder}"
+},
+{
+"name": "Launch Chrome CrowdAdmin on Angular CLI Server (30)",
+"type": "chrome",
+"request": "launch",
+"url": "http://localhost:4200/#",
+"webRoot": "${workspaceFolder}"
+},
+{
+"name": "Launch Chrome CrowdAdmin on Angular CLI Server (31)",
+"type": "chrome",
+"request": "launch",
+"url": "http://localhost:4200/#",
+"webRoot": "${workspaceFolder}"
+},
+{
+"name": "Launch Chrome CrowdAdmin on Angular CLI Server (32)",
+"type": "chrome",
+"request": "launch",
+"url": "http://localhost:4200/#",
+"webRoot": "${workspaceFolder}"
+},
+{
+"name": "Launch Chrome CrowdAdmin on Angular CLI Server (33)",
+"type": "chrome",
+"request": "launch",
+"url": "http://localhost:4200/#",
+"webRoot": "${workspaceFolder}"
+},
+{
+"name": "Launch Chrome CrowdAdmin on Angular CLI Server (34)",
+"type": "chrome",
+"request": "launch",
+"url": "http://localhost:4200/#",
+"webRoot": "${workspaceFolder}"
+},
+{
+"name": "Launch Chrome CrowdAdmin on Angular CLI Server (35)",
+"type": "chrome",
+"request": "launch",
+"url": "http://localhost:4200/#",
+"webRoot": "${workspaceFolder}"
+}
+]
+}

@@ -1,0 +1,75 @@
+<div class="jumbotron">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <h3>{{labels.registerFormTitle}}</h3>
+
+                <form [formGroup]="registerForm">
+                    <div class="form-group">
+                        <label>Email: </label>
+                        <input type="email" id="emailField" class="form-control" placeholder="Vul email in" formControlName="emailField"
+                            [ngClass]="{ '�s-invalid': submitted && f.emailField.errors }" >
+                        <div *ngIf="submitted && !!f.emailField.errors" class="invalid-feedback">
+                            <div *ngIf="!!f.emailField.errors.required">Email adres is verplicht.</div>
+                            <div *ngIf="!!f.emailField.errors.email">Email moet een valide email adres zijn.</div>
+                            <div *ngIf="!!f.emailField.errors.maxlength">Email mag niet langer dan 50 tekens zijn.</div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Voornaam:</label> 
+                        <input type="text" class="form-control" placeholder="Vul voornaam in" formControlName="firstname"
+                            [ngClass]="{ '�s-invalid': submitted && f.firstname.errors }" >
+                        <div *ngIf="submitted && !!f.firstname.errors" class="invalid-feedback">
+                            <div *ngIf="!!f.firstname.errors.maxlength">Voornaam mag niet langer dan 50 tekens zijn.</div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Achternaam: </label>
+                        <input type="text" formControlName="lastname" class="form-control" placeholder="Vul achternaam in" 
+                            [ngClass]="{ 'is-invalid': submitted && f.lastname.errors }" >
+                        <div *ngIf="submitted && !!f.lastname.errors" class="invalid-feedback">
+                            <div *ngIf="!!f.lastname.errors.required">Achternaam is verplicht.</div>
+                            <div *ngIf="!!f.lastname.errors.maxlength">Achternaam mag niet langer dan 50 tekens zijn.</div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Budget:</label>
+                        <input type="number" class="form-control" placeholder="Vul budget in" formControlName="budget"
+                            [ngClass]="{ 'is-invalid': submitted && f.budget.errors }" >
+                        <div *ngIf="submitted && !!f.budget.errors" class="invalid-feedback">
+                            <div *ngIf="!!f.budget.errors.max">Budget mag niet groter dan 999999999.99 zijn.</div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Wachtwoord:</label>
+                        <input type="password" class="form-control" placeholder="Vul wachtwoord in" formControlName="password"
+                            [ngClass]="{ 'is-invalid': submitted && f.password.errors }" >
+                        <div *ngIf="submitted && !!f.password.errors" class="invalid-feedback">
+                            <div *ngIf="!!f.password.errors.required">Wachtwoord is verplicht.</div>
+                            <div *ngIf="!!f.password.errors.maxlength">Wachtwoord mag niet langer dan 50 tekens zijn.</div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Wachtwoord bevestigen:</label>
+                        <input type="password" class="form-control" placeholder="Bevestig wachtwoord" formControlName="passwordConfirm"
+                            [ngClass]="{ 'is-invalid': submitted && f.passwordConfirm.errors }" >
+                        <div *ngIf="submitted && !!f.passwordConfirm.errors" class="invalid-feedback">
+                            <div *ngIf="!!f.passwordConfirm.errors.required">Wachtwoord controle is verplicht.</div>
+                            <div *ngIf="!!f.passwordConfirm.errors.maxlength">Wachtwoord controle mag niet langer dan 50 tekens zijn.</div>
+                            <div *ngIf="!!f.passwordConfirm.errors.mustMatch">Wachtwoorden moeten gelijk zijn.</div>
+                        </div>
+                    </div>
+
+                    <button (click)="saveRegistration()" class="btn btn-primary">Opslaan</button>
+                    <button (click)="cancelRegistration()" class="btn">Annuleren</button>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
