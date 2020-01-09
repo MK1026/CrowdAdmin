@@ -12,6 +12,7 @@ import { RegisterService } from './register.service';
   styleUrls: ['./register.component.css'],
   providers: [AppService, RegisterService]
 })
+
 export class RegisterComponent implements OnInit {
     registerForm: FormGroup;
     submitted = false;
@@ -27,6 +28,7 @@ export class RegisterComponent implements OnInit {
         ) {
 
         this.labels = this.appService.getMainLabels();
+        this.registerMessage = 'Vul de gegevens in.';
     }
 
     ngOnInit() {
@@ -50,7 +52,6 @@ export class RegisterComponent implements OnInit {
         if (this.registerForm.invalid) {
             return;
         } else {
-//            alert('SUCCESS!! :-)\n\n' + JSON.stringify(this.registerForm.value));
             this.result = this.registerService.saveRegistrationDB(this.registerForm.value);
         }
     }

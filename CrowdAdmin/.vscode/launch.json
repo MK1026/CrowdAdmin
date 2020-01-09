@@ -304,6 +304,22 @@
             "request": "launch",
             "url": "http://localhost:4200/#",
             "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Chrome CrowdAdmin on Angular CLI Server (43)",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:4200/#",
+            "webRoot": "${workspaceFolder}",
+            "port": 9267
+        },
+        {
+            "name": "Launch Chrome CrowdAdmin on Angular CLI Server (44)",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:4200/#",
+            "webRoot": "${workspaceFolder}",
+            "port": 9209
         }
     ]
 }{

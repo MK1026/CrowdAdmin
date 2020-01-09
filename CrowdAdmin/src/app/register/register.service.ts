@@ -1,8 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 
-
-
 @Injectable()
 export class RegisterService {
 
@@ -27,6 +25,7 @@ export class RegisterService {
         data => {
             console.log('POST Request is successful, ', data);
             alert('Gegevens opgeslagen.');
+            return 'Gegevens opgeslagen.';
 
         },
         error => {
