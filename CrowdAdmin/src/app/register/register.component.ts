@@ -19,6 +19,7 @@ export class RegisterComponent implements OnInit {
     result: any;
     displayResult: any;
     labels: any;
+    registerMessage: string;
 
     constructor(
         private appService: AppService,
